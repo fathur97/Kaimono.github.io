@@ -1,0 +1,66 @@
+body {font-family: sans-serif,arial;
+    margin: 0;
+    background: url("/OnlineShop/img/Gambar1.jpg");
+    background-position: cover;
+    background-size: 100%;
+}
+
+
+#button a{
+    background-color: #b8b2b2;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+#button a:hover{
+    background-color: gray;
+    color: white;
+    padding: 15px 32px;
+}
+
+.content {
+    max-width: auto;
+    margin: auto;
+    background: rgb(0, 0, 0);
+    padding:10px;
+    border-radius: none;
+}
+
+.center{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    right: auto;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    margin-bottom: -10px;
+    margin-top: -10px;
+  }
+
+  .navbar a {
+    float: left;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .navbar a:hover {
+    color: gray;
+  }
+
+  .navbar a.active {
+    background-color: rgb(49, 52, 238);
+    color: white;
+  }
